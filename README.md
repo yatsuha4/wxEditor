@@ -1,0 +1,2 @@
+# wxEditor
+wxWidgetsでエディタを作るときの基底ライブラリ
