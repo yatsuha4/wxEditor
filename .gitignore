@@ -1,2 +1,7 @@
-/external/build/mac/work/
 /external/opt/
+
+# Mac
+/external/build/mac/work/
+DerivedData/
+project.xcworkspace/
+xcuserdata/

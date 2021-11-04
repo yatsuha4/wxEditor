@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266ADFF32734104700650A35 /* stdafx.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266ADFE82734104700650A35 /* stdafx.hpp */; };
+		266ADFF42734104700650A35 /* PropertyMember.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 266ADFEA2734104700650A35 /* PropertyMember.cpp */; };
+		266ADFF52734104700650A35 /* MemberBase.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266ADFEB2734104700650A35 /* MemberBase.hpp */; };
+		266ADFF62734104700650A35 /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 266ADFEC2734104700650A35 /* Property.cpp */; };
+		266ADFF72734104700650A35 /* Choice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 266ADFED2734104700650A35 /* Choice.cpp */; };
+		266ADFF82734104700650A35 /* Member.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266ADFEE2734104700650A35 /* Member.hpp */; };
+		266ADFF92734104700650A35 /* Property.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266ADFEF2734104700650A35 /* Property.hpp */; };
+		266ADFFA2734104700650A35 /* Choice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266ADFF02734104700650A35 /* Choice.hpp */; };
+		266ADFFB2734104700650A35 /* PropertyMember.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266ADFF12734104700650A35 /* PropertyMember.hpp */; };
+		266ADFFC2734104700650A35 /* MemberBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 266ADFF22734104700650A35 /* MemberBase.cpp */; };
+		266AE001273412B600650A35 /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 266ADFFE273412B500650A35 /* Object.cpp */; };
+		266AE003273412B600650A35 /* Object.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266AE000273412B500650A35 /* Object.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266ADFDB27340AFD00650A35 /* libwxEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwxEditor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		266ADFE82734104700650A35 /* stdafx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stdafx.hpp; sourceTree = "<group>"; };
+		266ADFEA2734104700650A35 /* PropertyMember.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PropertyMember.cpp; sourceTree = "<group>"; };
+		266ADFEB2734104700650A35 /* MemberBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MemberBase.hpp; sourceTree = "<group>"; };
+		266ADFEC2734104700650A35 /* Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Property.cpp; sourceTree = "<group>"; };
+		266ADFED2734104700650A35 /* Choice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Choice.cpp; sourceTree = "<group>"; };
+		266ADFEE2734104700650A35 /* Member.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Member.hpp; sourceTree = "<group>"; };
+		266ADFEF2734104700650A35 /* Property.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Property.hpp; sourceTree = "<group>"; };
+		266ADFF02734104700650A35 /* Choice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Choice.hpp; sourceTree = "<group>"; };
+		266ADFF12734104700650A35 /* PropertyMember.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PropertyMember.hpp; sourceTree = "<group>"; };
+		266ADFF22734104700650A35 /* MemberBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemberBase.cpp; sourceTree = "<group>"; };
+		266ADFFE273412B500650A35 /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		266AE000273412B500650A35 /* Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266ADFD927340AFD00650A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266ADFD227340AFD00650A35 = {
+			isa = PBXGroup;
+			children = (
+				266ADFE72734104700650A35 /* wxeditor */,
+				266ADFDC27340AFD00650A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266ADFDC27340AFD00650A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266ADFDB27340AFD00650A35 /* libwxEditor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266ADFE72734104700650A35 /* wxeditor */ = {
+			isa = PBXGroup;
+			children = (
+				266ADFFD273412B500650A35 /* object */,
+				266ADFE92734104700650A35 /* property */,
+				266ADFE82734104700650A35 /* stdafx.hpp */,
+			);
+			name = wxeditor;
+			path = ../../../wxeditor;
+			sourceTree = "<group>";
+		};
+		266ADFE92734104700650A35 /* property */ = {
+			isa = PBXGroup;
+			children = (
+				266ADFED2734104700650A35 /* Choice.cpp */,
+				266ADFF02734104700650A35 /* Choice.hpp */,
+				266ADFEE2734104700650A35 /* Member.hpp */,
+				266ADFF22734104700650A35 /* MemberBase.cpp */,
+				266ADFEB2734104700650A35 /* MemberBase.hpp */,
+				266ADFEC2734104700650A35 /* Property.cpp */,
+				266ADFEF2734104700650A35 /* Property.hpp */,
+				266ADFEA2734104700650A35 /* PropertyMember.cpp */,
+				266ADFF12734104700650A35 /* PropertyMember.hpp */,
+			);
+			path = property;
+			sourceTree = "<group>";
+		};
+		266ADFFD273412B500650A35 /* object */ = {
+			isa = PBXGroup;
+			children = (
+				266ADFFE273412B500650A35 /* Object.cpp */,
+				266AE000273412B500650A35 /* Object.hpp */,
+			);
+			path = object;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		266ADFD727340AFD00650A35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266ADFF92734104700650A35 /* Property.hpp in Headers */,
+				266ADFF82734104700650A35 /* Member.hpp in Headers */,
+				266ADFF52734104700650A35 /* MemberBase.hpp in Headers */,
+				266ADFFA2734104700650A35 /* Choice.hpp in Headers */,
+				266ADFF32734104700650A35 /* stdafx.hpp in Headers */,
+				266ADFFB2734104700650A35 /* PropertyMember.hpp in Headers */,
+				266AE003273412B600650A35 /* Object.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		266ADFDA27340AFD00650A35 /* wxEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266ADFE427340AFD00650A35 /* Build configuration list for PBXNativeTarget "wxEditor" */;
+			buildPhases = (
+				266ADFD727340AFD00650A35 /* Headers */,
+				266ADFD827340AFD00650A35 /* Sources */,
+				266ADFD927340AFD00650A35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wxEditor;
+			productName = wxEditor;
+			productReference = 266ADFDB27340AFD00650A35 /* libwxEditor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266ADFD327340AFD00650A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					266ADFDA27340AFD00650A35 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 266ADFD627340AFD00650A35 /* Build configuration list for PBXProject "wxEditor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266ADFD227340AFD00650A35;
+			productRefGroup = 266ADFDC27340AFD00650A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266ADFDA27340AFD00650A35 /* wxEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266ADFD827340AFD00650A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266ADFF42734104700650A35 /* PropertyMember.cpp in Sources */,
+				266ADFF72734104700650A35 /* Choice.cpp in Sources */,
+				266ADFFC2734104700650A35 /* MemberBase.cpp in Sources */,
+				266AE001273412B600650A35 /* Object.cpp in Sources */,
+				266ADFF62734104700650A35 /* Property.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		266ADFE227340AFD00650A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../../wxeditor/stdafx.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../../external/opt/mac/wxWidgets/include/wx-3.1",
+					"$(PROJECT_DIR)/../../../external/opt/mac/wxWidgets/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(PROJECT_DIR)/../../../external/glm",
+				);
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../..";
+			};
+			name = Debug;
+		};
+		266ADFE327340AFD00650A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../../wxeditor/stdafx.hpp";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../../external/opt/mac/wxWidgets/include/wx-3.1",
+					"$(PROJECT_DIR)/../../../external/opt/mac/wxWidgets/lib/wx/include/osx_cocoa-unicode-static-3.1",
+					"$(PROJECT_DIR)/../../../external/glm",
+				);
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../..";
+			};
+			name = Release;
+		};
+		266ADFE527340AFD00650A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		266ADFE627340AFD00650A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266ADFD627340AFD00650A35 /* Build configuration list for PBXProject "wxEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266ADFE227340AFD00650A35 /* Debug */,
+				266ADFE327340AFD00650A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266ADFE427340AFD00650A35 /* Build configuration list for PBXNativeTarget "wxEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266ADFE527340AFD00650A35 /* Debug */,
+				266ADFE627340AFD00650A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266ADFD327340AFD00650A35 /* Project object */;
+}
