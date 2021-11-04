@@ -1,3 +1,6 @@
 [submodule "external/wxWidgets"]
 	path = external/wxWidgets
 	url = https://github.com/wxWidgets/wxWidgets.git
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/g-truc/glm.git
