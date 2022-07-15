@@ -1,4 +1,4 @@
-#include "wxeditor/object/Object.hpp"
+﻿#include "wxeditor/object/Object.hpp"
 #include "wxeditor/property/Property.hpp"
 
 namespace wxeditor::property {

@@ -1,4 +1,4 @@
-#include "wxeditor/property/MemberBase.hpp"
+﻿#include "wxeditor/property/MemberBase.hpp"
 
 namespace wxeditor::property {
   /**

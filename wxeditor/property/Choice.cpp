@@ -1,4 +1,4 @@
-#include "wxeditor/property/Choice.hpp"
+﻿#include "wxeditor/property/Choice.hpp"
 
 namespace wxeditor::property {
   /**
