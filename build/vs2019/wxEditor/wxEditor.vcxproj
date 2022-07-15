@@ -54,22 +54,22 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wxEditor.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wxEditor.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <PublicIncludeDirectories>
     </PublicIncludeDirectories>
-    <IncludePath>$(ProjectDir)\..\..\..;$(ProjectDir)\..\..\..\external\glm;$(ProjectDir)\..\..\..\external\wxWidgets\include;$(ProjectDir)\..\..\..\external\wxWidgets\lib\vc_x64_lib\mswud;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <PublicIncludeDirectories>
     </PublicIncludeDirectories>
-    <IncludePath>$(ProjectDir)\..\..\..;$(ProjectDir)\..\..\..\external\glm;$(ProjectDir)\..\..\..\external\wxWidgets\include;$(ProjectDir)\..\..\..\external\wxWidgets\lib\vc_x64_lib\mswud;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -81,7 +81,6 @@
       <PrecompiledHeaderFile>stdafx.hpp</PrecompiledHeaderFile>
       <ForcedIncludeFiles>wxeditor/stdafx.hpp</ForcedIncludeFiles>
       <PrecompiledHeaderOutputFile>$(IntDir)$stdafx.pch</PrecompiledHeaderOutputFile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -101,7 +100,6 @@
       <PrecompiledHeaderFile>stdafx.hpp</PrecompiledHeaderFile>
       <ForcedIncludeFiles>wxeditor/stdafx.hpp</ForcedIncludeFiles>
       <PrecompiledHeaderOutputFile>$(IntDir)$stdafx.pch</PrecompiledHeaderOutputFile>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>

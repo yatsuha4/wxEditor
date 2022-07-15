@@ -5,6 +5,7 @@
 #elif defined(_WIN64)
 #define WXEDITOR_PLATFORM "windows"
 #define WXEDITOR_PLATFORM_WINDOWS
+#define STRICT
 
 #else
 #error "not support platform"
