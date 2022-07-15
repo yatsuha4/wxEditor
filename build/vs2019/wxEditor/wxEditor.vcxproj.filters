@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="wxeditor">
+      <UniqueIdentifier>{aad57185-dc1f-4458-8352-d7b8ae4e821d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxeditor\object">
+      <UniqueIdentifier>{4445c8c0-0050-4a12-84a3-2d3a98226891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxeditor\property">
+      <UniqueIdentifier>{879d6d73-1e3a-4f4a-ac2e-a71b522fc60c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\wxeditor\stdafx.hpp">
+      <Filter>wxeditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\wxeditor\object\Object.hpp">
+      <Filter>wxeditor\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\wxeditor\property\Choice.hpp">
+      <Filter>wxeditor\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\wxeditor\property\Member.hpp">
+      <Filter>wxeditor\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\wxeditor\property\MemberBase.hpp">
+      <Filter>wxeditor\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\wxeditor\property\Property.hpp">
+      <Filter>wxeditor\property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\wxeditor\property\PropertyMember.hpp">
+      <Filter>wxeditor\property</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\wxeditor\object\Object.cpp">
+      <Filter>wxeditor\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\wxeditor\property\Choice.cpp">
+      <Filter>wxeditor\property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\wxeditor\property\MemberBase.cpp">
+      <Filter>wxeditor\property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\wxeditor\property\Property.cpp">
+      <Filter>wxeditor\property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\wxeditor\property\PropertyMember.cpp">
+      <Filter>wxeditor\property</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

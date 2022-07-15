@@ -5,3 +5,8 @@
 DerivedData/
 project.xcworkspace/
 xcuserdata/
+
+# Windows
+*.vcxproj.user
+.vs/
+/build/vs2019/wxEditor/x64/

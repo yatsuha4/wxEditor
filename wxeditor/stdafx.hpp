@@ -2,6 +2,10 @@
 #define WXEDITOR_PLATFORM "mac"
 #define WXEDITOR_PLATFORM_MAC
 
+#elif defined(_WIN64)
+#define WXEDITOR_PLATFORM "windows"
+#define WXEDITOR_PLATFORM_WINDOWS
+
 #else
 #error "not support platform"
 #endif
