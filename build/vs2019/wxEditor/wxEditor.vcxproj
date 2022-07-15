@@ -17,7 +17,7 @@
     <ClInclude Include="..\..\..\wxeditor\property\MemberBase.hpp" />
     <ClInclude Include="..\..\..\wxeditor\property\Property.hpp" />
     <ClInclude Include="..\..\..\wxeditor\property\PropertyMember.hpp" />
-    <ClInclude Include="..\..\..\wxeditor\stdafx.hpp" />
+    <ClInclude Include="..\..\..\wxeditor\wxeditor.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\wxeditor\object\Object.cpp" />
@@ -25,6 +25,10 @@
     <ClCompile Include="..\..\..\wxeditor\property\MemberBase.cpp" />
     <ClCompile Include="..\..\..\wxeditor\property\Property.cpp" />
     <ClCompile Include="..\..\..\wxeditor\property\PropertyMember.cpp" />
+    <ClCompile Include="..\..\..\wxeditor\wxeditor.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -78,10 +82,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>stdafx.hpp</PrecompiledHeaderFile>
-      <ForcedIncludeFiles>wxeditor/stdafx.hpp</ForcedIncludeFiles>
-      <PrecompiledHeaderOutputFile>$(IntDir)$stdafx.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wxeditor.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>wxeditor.hpp</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -97,10 +100,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>stdafx.hpp</PrecompiledHeaderFile>
-      <ForcedIncludeFiles>wxeditor/stdafx.hpp</ForcedIncludeFiles>
-      <PrecompiledHeaderOutputFile>$(IntDir)$stdafx.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>wxeditor.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>wxeditor.hpp</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>

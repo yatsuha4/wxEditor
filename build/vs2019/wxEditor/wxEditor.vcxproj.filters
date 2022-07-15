@@ -16,7 +16,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\wxeditor\stdafx.hpp">
+    <ClInclude Include="..\..\..\wxeditor\wxeditor.hpp">
       <Filter>wxeditor</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\wxeditor\object\Object.hpp">
@@ -53,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\wxeditor\property\PropertyMember.cpp">
       <Filter>wxeditor\property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\wxeditor\wxeditor.cpp">
+      <Filter>wxeditor</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
