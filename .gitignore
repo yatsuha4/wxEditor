@@ -10,3 +10,4 @@ xcuserdata/
 *.vcxproj.user
 .vs/
 /build/vs2019/wxEditor/x64/
+/build/vs2022/x64/
