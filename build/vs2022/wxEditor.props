@@ -7,6 +7,7 @@
     <ClCompile>
       <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)..\..;$(MSBuildThisFileDirectory)..\..\external\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>$(IntDir)%(Directory)%(Filename).obj</ObjectFileName>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />
